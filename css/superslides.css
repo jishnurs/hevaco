@@ -64,7 +64,7 @@
 .slides-pagination a {
   border-radius: 15px;
   width: 12px;
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+  background: none repeat scroll 0 0 #005DA1;
   height: 12px;
   display: -moz-inline-stack;
   display: inline-block;
