@@ -259,6 +259,11 @@ img{
 @media(max-width: 667px){
   .social-icons-agileits ul li {
     font-size: .9em;
+    text-align: left;
+  }
+  .social-icons-agileits img.logo{
+    width: 50%;
+    padding: 0px 0 6px;
   }
 }
 @media(max-width: 480px){
@@ -272,6 +277,10 @@ img{
     width: 30px;
     height: 30px;
     margin-right: 0px;
+  }
+  .hevaco-iso img {
+      width: 23%;
+      margin-top: -63px;
   }
 }
 @media(max-width: 440px){
@@ -305,9 +314,14 @@ img{
   margin-top: 15px; 
 }
 .navbar-brand{
-  line-height: 36px;
+  line-height: 31px;
   margin-top: 0px !important;
   padding: 10px 0 0 15px;
+  /*padding-right: 5em;*/
+}
+.navbar-brand .sub-head{
+  font-size: 14px;
+  color: #333 !important;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
   background-color: transparent;
@@ -405,14 +419,14 @@ img{
   color: #fff;
   font-size: 33px;
   /*background-color: rgba(49, 59, 61, 0.6);*/
-  background-color: #005da1b3;
+  background-color: rgba(0, 93, 161, 0.75);
   padding: 8px;
   margin-bottom: 5px;
   text-transform: uppercase;
 }
 .slider_caption p {
   /*background-color: rgba(49, 59, 61, 0.6);*/
-  background-color: #005da1b3;
+  background-color: rgba(0, 93, 161, 0.75);
   color: #fff;
   font-family: "Varela",sans-serif;
   font-size: 15px;
@@ -421,7 +435,7 @@ img{
 }
 .slider_btn {  
   /*background: rgba(49, 59, 61, 0.6);*/
-  background-color: #005da1b3;
+  background-color: rgba(0, 93, 161, 0.75);
   border: 2px solid #fff;
   border-radius: 5px;
   color: #fff;
@@ -629,6 +643,11 @@ ul.slides-container > li > img{
   height: 150px;  
   text-align: center;
   width: 150px;
+  border: 2px solid #005da1;
+}
+.whyus_icon img{
+  width: 100px;
+  margin: 24px auto;
 }
 .whyus_icon span{
   display: inline-block;
@@ -712,7 +731,7 @@ div[data-dimension] {
 /*--------------------*/
 
 #ourCourses{
-  background-color: #f6f6f6;
+  /*background-color: #f6f6f6;*/
   float: left;
   display: inline;
   width: 100%;  
@@ -820,11 +839,21 @@ div[data-dimension] {
   width: 100%;
   padding: 10px;
 }
+.singCourse_content h2{
+  background-color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #005da1;
+  text-align: center;
+}
 .singCourse_title {
   border-bottom: 1px solid #efefef;
   font-size: 20px;
   margin-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
   
 }
 .singCourse_title a{
@@ -898,7 +927,8 @@ div[data-dimension] {
 /*--------------------*/
 
 #ourTutors{
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background-color: #f6f6f6;
   display: inline;
   float: left;
   padding: 60px 0;
@@ -960,6 +990,10 @@ div[data-dimension] {
   font-size: 18px;
   margin-bottom: 3px;
   text-transform: uppercase;
+  text-align: center;
+}
+.tutors_name a{
+  color: #005da1;
 }
 .singTutors_content>span{
   font-size: 13px;
@@ -1021,7 +1055,7 @@ div[data-dimension] {
 /*--------------------*/
 
 #studentsTestimonial{
-  background-color: #f6f6f6;
+  /*background-color: #f6f6f6;*/
   float: left;
   display: inline;
   width: 100%;  
@@ -1039,8 +1073,8 @@ div[data-dimension] {
   text-align: center;
 }
 .stsTestimonial_msgbox {
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #f6f6f6;
+  border: 1px solid #005da1;
   border-radius: 8px;
   display: inline;
   float: left;
@@ -1143,20 +1177,23 @@ div[data-dimension] {
 /*--------------------*/
 
 #imgBanner {
-  background-image: url("img/banner.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*background-image: url("img/banner.jpg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: 100% 100%;*/
+  background-color: #f6f6f6;
   display: inline;
   float: left;
-  height: 300px;
+  /*height: 300px;*/
+  height: 185px;
   margin-top: 77px;
-  padding: 118px 0;
+  /*padding: 118px 0;*/
+  padding: 118px 0 0px;
   text-align: center;
   width: 100%;
 }
 #imgBanner h2 {
-  color: #fff;
-  font-size: 72px;
+  /*color: #fff;*/
+  /*font-size: 72px;*/
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -1166,7 +1203,8 @@ div[data-dimension] {
   display: inline;
   width: 100%;
   background-color: #f6f6f6;
-  padding: 60px 0px;
+  /*padding: 60px 0px;*/
+  padding: 0px 0 60px 0;
   min-height: 500px;
 }
 .courseArchive_content{
@@ -1914,7 +1952,9 @@ div[data-dimension] {
   background-color: #c762cb;
 }
 
-
+.vision{
+  padding-bottom: 32px;
+}
 /*======================///////////////
 			start responsive style
 =====================///////////////////////*/
@@ -1928,10 +1968,13 @@ div[data-dimension] {
   .side_add{display: block;width: 100%;}
   .side_add>img{width: 100%;}
   .gallery_area a {width: 22.5%;}
+  .vision{
+    padding-bottom: 55px;
+  }
 }
   
 @media(max-width:991px ){
-  .navbar-default .navbar-brand {font-size: 18px;}
+  .navbar-default .navbar-brand {font-size: 16px;}
   .navbar-default .navbar-nav > li > a {font-size: 12px;padding: 30px 9px;}
   .navbar-nav > li > .dropdown-menu li a {font-size: 12px;}
   /*.navbar-brand{width: 160px;}*/
@@ -1946,12 +1989,17 @@ div[data-dimension] {
   .single_sidebar > h2 {font-size: 20px;}
   .news_tab .media-body > a {font-size: 12px;}
   .gallery_area a {width: 30.3%;} 
-
-  
+.sub-head{
+  font-size: 10px !important;
+}
+.vision{
+  padding-bottom: 70px;
+}
 }
 
 
 @media(max-width:767px ){
+  .navbar-default .navbar-brand {font-size: 15px;}
 .navbar-default .navbar-nav > li > a {padding: 10px 20px;}
 .navbar-nav > li > .dropdown-menu {left: 15px;}	
 .navbar-nav > li > .dropdown-menu:before {border-left: 10px solid transparent;border-right: 10px solid transparent;right: 65%;}
@@ -1976,6 +2024,9 @@ div[data-dimension] {
 .courseArchive_content {margin-bottom: 65px;}
 .gallery_area a {width: 28.5%;}
 .contact_address {margin-top: 50px;text-align: center;}
+.navbar-brand{
+  padding-top: 0px !important;
+}
 
 }
 
@@ -1988,7 +2039,9 @@ div[data-dimension] {
   #imgBanner h2 {font-size: 40px;}
   #imgBanner {height: 200px;padding: 80px 0;}
   .gallery_area a {width: 100%;margin-right: 0;margin-left: 0;height: 250px;}
- 
+ .social-icons-agileits {
+     padding-top: 0em;
+ }
 }
 
 @media(max-width:360px ){
@@ -2002,10 +2055,17 @@ div[data-dimension] {
   #imgBanner h2 {font-size: 30px;}
   .blog_title {font-size: 20px;line-height: 30px;}
   .gallery_area a {width: 100%;margin-right: 0;margin-left: 0;height: 200px;}
-
+  .navbar-default .navbar-brand {
+      font-size: 12px;
+  }
+  .sub-head {
+      font-size: 8px !important;
+  }
 }
 
 @media(max-width:320px ){
-
+  .sub-head {
+      font-size: 7px !important;
+  }
 	
 }
