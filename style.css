@@ -404,13 +404,15 @@ img{
 .slider_caption h2 {
   color: #fff;
   font-size: 33px;
-  background-color: rgba(49, 59, 61, 0.6);
+  /*background-color: rgba(49, 59, 61, 0.6);*/
+  background-color: #005da1b3;
   padding: 8px;
   margin-bottom: 5px;
   text-transform: uppercase;
 }
 .slider_caption p {
-  background-color: rgba(49, 59, 61, 0.6);
+  /*background-color: rgba(49, 59, 61, 0.6);*/
+  background-color: #005da1b3;
   color: #fff;
   font-family: "Varela",sans-serif;
   font-size: 15px;
@@ -418,7 +420,8 @@ img{
   padding: 10px;
 }
 .slider_btn {  
-  background: rgba(49, 59, 61, 0.6);
+  /*background: rgba(49, 59, 61, 0.6);*/
+  background-color: #005da1b3;
   border: 2px solid #fff;
   border-radius: 5px;
   color: #fff;
