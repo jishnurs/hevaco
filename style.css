@@ -317,7 +317,7 @@ img{
   /*background-color: #313b3d;*/
   border-color: transparent;
   /*background-color: rgba(0, 93, 161, 0.06);*/
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid #005da1;
 }
 #navbar{overflow-x: hidden;}
 .navbar-default .navbar-nav > li > a {
@@ -1116,8 +1116,10 @@ div[data-dimension] {
   float: left;
   display: inline;
   width: 100%;
-  background-color: #f8f8f8;
+  /*background-color: #f8f8f8;*/
   padding: 20px 0px;
+  background-color: #005da1;
+  color: #fff;
 }
 .footer_bootomLeft{
   float: left;
