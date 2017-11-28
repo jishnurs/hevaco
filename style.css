@@ -178,6 +178,9 @@ img{
 .navbar-header .sub-head{
   display: block;
 }
+.logo-caption-1{
+  text-transform: uppercase;
+}
 /*--social-icons--*/
 .social {
     text-align: center;
